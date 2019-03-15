@@ -7,6 +7,9 @@ Create a `env` file with a configuration like the one in `env.example` adding th
 ## Install PostgreSQL
 https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
 
+## Create .env file
+Copy the content from .env.example into a new .env file
+
 ## Setup
 `npm install -g sequelize-cli`
 `npm install -g mysql2`
