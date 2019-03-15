@@ -7,17 +7,14 @@ Create a `env` file with a configuration like the one in `env.example` adding th
 ## Install PostgreSQL
 https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
 
-## Create .env file
-Copy the content from .env.example into a new .env file
-
 ## Setup
-`npm install -g sequelize-cli`
-`npm install -g mysql2`
-Run `sequelize db:create` to create the databse.
-Run `sequelize db:migrate` to create the databse tables.
-Run `sequelize db:seed:all` to populate the tables.
+        Run `npm install -g sequelize-cli`
+        Run `npm install -g mysql2`
+        Run `sequelize db:create` to create the databse.
+        Run `sequelize db:migrate` to create the databse tables.
+        Run `sequelize db:seed:all` to populate the tables.
 
-Run `sequelize db:drop` to drop the database.
+        Run `sequelize db:drop` to drop the database.
 
 ## Testing standard coding:
         Run: standard
