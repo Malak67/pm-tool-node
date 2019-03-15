@@ -7,7 +7,7 @@ module.exports = {
         username: 'admin',
         fname: 'Florin',
         lname: 'Georgescu',
-        password: '$2b$10$W.mJVYT7PkPeFwLHeIwJkeFRQL4ioohqufd4n1mE93Cd2uydYOMkK', // denopi@123
+        password: '$2b$10$rmsKAmTZDlPTMpzZu/e5s.XVJhthrbKVFVu2vFVyPOuFlvGWWlA1y', // admin@123
         email: 'admin@test.com',
         isAdmin: true,
         createdAt: new Date(Date.now()).toLocaleString(),
@@ -15,9 +15,9 @@ module.exports = {
       },
       {
         username: 'user',
-        fname: 'Normal',
-        lname: 'User',
-        password: '$2b$10$W.mJVYT7PkPeFwLHeIwJkeFRQL4ioohqufd4n1mE93Cd2uydYOMkK', // denopi@123
+        fname: 'Son',
+        lname: 'Goku',
+        password: '$2b$10$rmsKAmTZDlPTMpzZu/e5s.XVJhthrbKVFVu2vFVyPOuFlvGWWlA1y', // admin@123
         email: 'user@test.com',
         isAdmin: false,
         createdAt: new Date(Date.now()).toLocaleString(),

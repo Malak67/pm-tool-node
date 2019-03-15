@@ -42,19 +42,16 @@ const authUser = (userInfo) => {
 
     return User.findOne({ where: { username: username } })
       .then(user => {
-        console.log(user)
         if (!user) throw new Error('Not registered')
         return user.comparePassword(userInfo.password)
           .then(success => {
             return user
           })
           .catch(error => {
-            console.log(error)
             throw new Error(error.message)
           })
       })
       .catch(error => {
-        console.log(error)
         throw new Error(error.message)
       })
   }

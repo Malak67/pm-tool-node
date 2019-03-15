@@ -65,8 +65,6 @@ module.exports = (sequelize, DataTypes) => {
             return bcrypt.hash(user.password, salt)
               .then(hash => {
                 user.password = hash
-                console.log(hash)
-                console.log(user.password)
               })
               .catch(error => {
                 throw new Error(error)
@@ -97,7 +95,6 @@ module.exports = (sequelize, DataTypes) => {
 
     return User.findByPk(this.id)
       .then(user => {
-        console.log(user)
         userDetails.username = user.username
         userDetails.email = user.email
         userDetails.isAdmin = user.isAdmin

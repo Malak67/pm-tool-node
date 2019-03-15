@@ -15,7 +15,6 @@ module.exports = {
     const body = req.body
     return authService.authUser(body)
       .then(user => {
-        console.log(user)
         if (user) {
           return user.getJWT()
             .then(jwt => {

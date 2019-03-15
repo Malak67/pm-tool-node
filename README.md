@@ -9,7 +9,6 @@ https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
 
 ## Setup
         Run `npm install -g sequelize-cli`
-        Run `npm install -g mysql2`
         Run `sequelize db:create` to create the databse.
         Run `sequelize db:migrate` to create the databse tables.
         Run `sequelize db:seed:all` to populate the tables.
